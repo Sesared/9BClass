@@ -2,8 +2,17 @@ html {
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: "ComicSansMSBold";
+    src: url("../fonts/ComicSansMSBold/ComicSansMSBold.eot");
+    src: url("../fonts/ComicSansMSBold/ComicSansMSBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ComicSansMSBold/ComicSansMSBold.woff") format("woff"),
+    url("../fonts/ComicSansMSBold/ComicSansMSBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
 body {
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Comic Sans MS", cursive;
     font-size: 13pt;
     background-color: #6a6a6a;
     padding: 10px;
@@ -36,7 +45,7 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url("54 школа.jpg");
+    background-image: url("image/myschool.jpg");
     background-size: cover;
     background-position: -1px;
 }
@@ -175,13 +184,4 @@ input, textarea {
 .first {
     background-color:#00bfff;
     color: black;
-}
-@font-face {
-    font-family: "ComicSansMSBold";
-    src: url("../fonts/ComicSansMSBold/ComicSansMSBold.eot");
-    src: url("../fonts/ComicSansMSBold/ComicSansMSBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ComicSansMSBold/ComicSansMSBold.woff") format("woff"),
-    url("../fonts/ComicSansMSBold/ComicSansMSBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 700;
 }
