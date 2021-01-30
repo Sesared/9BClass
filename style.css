@@ -178,9 +178,12 @@ input, textarea {
     text-decoration: none;
     color: black;
 }
-.nonephoto {
-    color: grey;
-    text-align: center;
+.photoclass {
+    border:  6px #bdbdbd solid;
+    display: block;
+    margin: auto;
+    width: 550px;
+    height: 400px;
 }
 .first {
     background-color:#00bfff;
