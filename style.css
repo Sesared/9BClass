@@ -189,3 +189,13 @@ input, textarea {
     background-color:#00bfff;
     color: black;
 }
+.odnlist {
+    text-decoration: none;
+    color: #20bcd5;
+}
+.spisok {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+}

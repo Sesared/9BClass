@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "ComicSansMSBold";
+    src: url("../fonts/ComicSansMSBold/ComicSansMSBold.eot");
+    src: url("../fonts/ComicSansMSBold/ComicSansMSBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ComicSansMSBold/ComicSansMSBold.woff") format("woff"),
+    url("../fonts/ComicSansMSBold/ComicSansMSBold.ttf") format("truetype");
+    src: url("fonts/ComicSansMSBold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+body {
+    font-family: "ComicSansMSBold", cursive;
+    font-size: 13pt;
+    background-color: #6a6a6a;
+    padding: 10px;
+    margin: 0;
+}
+.vk {
+    text-decoration: none;
+    color: black;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
