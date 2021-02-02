@@ -199,3 +199,11 @@ input, textarea {
     margin-left: 100px;
     margin-right: 100px;
 }
+.home {
+    text-decoration: none;
+    color: #20bcd5;
+}
+#gdz {
+    color: gray;
+    text-align: center;
+}
