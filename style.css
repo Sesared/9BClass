@@ -168,6 +168,10 @@ input, textarea {
 #contacts {
     text-align: center;
 }
+#gdz {
+    color: gray;
+    text-align: center;
+}
 .copyright {
     font-size: 8pt;
     text-align: right;
@@ -202,8 +206,4 @@ input, textarea {
 .home {
     text-decoration: none;
     color: #20bcd5;
-}
-#gdz {
-    color: gray;
-    text-align: center;
 }
