@@ -197,6 +197,9 @@ input, textarea {
     text-decoration: none;
     color: #20bcd5;
 }
+.odnlist {
+	color: #c0c0c0
+}
 .spisok {
     background-color: #fff;
     border-radius: 10px;
