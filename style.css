@@ -210,3 +210,6 @@ input, textarea {
     text-decoration: none;
     color: #20bcd5;
 }
+.home:hover {
+    color: #c0c0c0
+}
