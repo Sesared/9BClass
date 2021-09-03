@@ -1,141 +1,119 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <title>8 "Б" класс</title>
-    <link rel="shortcut icon" href="image/icon.ico">
-    <link href="style.css" rel="stylesheet">
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="utf-8">
-</head>
-<body>
-<div id="header" class="section">
-    <a target= "_blank" href="https://school54.centerstart.ru/">
-        <img alt="" class="img-circle" src="image/myschool.jpg">
-    </a>
-    <p>8 "Б" класс</p>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>9BClass</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style type="text/css">
+      .vk {
+    text-decoration: none;
+    color: black;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.rectangle {
+counter-reset: li; 
+list-style: none; 
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 0;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rectangle a {
+position: relative;
+display: block;
+padding: .4em .4em .4em .8em;
+margin: .5em 0 .5em 2.5em;
+background: #D3D4DA;
+color: #444;
+text-decoration: none;
+transition: all .3s ease-out;
+}
+.rectangle a:hover {background: #DCDDE1;}       
+.rectangle a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -2.5em;
+top: 50%;
+margin-top: -1em;
+background: #9097A2;
+height: 2em;
+width: 2em;
+line-height: 2em;
+text-align: center;
+font-weight: bold;
+}
+.rectangle a:after {
+position: absolute;
+content: "";
+border: .5em solid transparent;
+left: -1em;
+top: 50%;
+margin-top: -.5em;
+transition: all .3s ease-out;
+}
+.rectangle a:hover:after {
+left: -.5em;
+border-left-color: #9097A2;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">9BClass</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Домашнее задание</a>
+        </li>
+    </div>
+  </div>
+</nav>
+    </header>
+    <div class="card">
+  <div class="card-body">
+    Приветствую тебя мой дорогой друг на сайте нашего класса. Здесь будут написано домашнее задание, список учеников и дежурств.
+  </div>
+    <div class="card">
+  <div class="card-body">
+    <ol class="rectangle">
+    <li><a class="vk" target="_blank" href="https://vk.com/id553555723">Аверин Егор</a></li>
+    <li><a href="#">Герасименко Валерия</a></li>
+    <li><a class="vk" target="_blank" href="https://vk.com/guseynovaleila">Гусейнова Лейла</a></li>
+    <li><a href="#">Дыбова Полина</a></li>
+    <li><a class="vk" target="_blank" href= "https://vk.com/id430083940">Иванов Глеб</a></li>
+    <li><a href="#">Киселёва Карина</a></li>
+    <li><a class="vk" target="_blank" href= "https://vk.com/nedo.texto.plet">Кобяков Артём</a></li>
+    <li><a href="#">Кравцова Галина</a></li>
+    <li><a href="#">Кубиков Артём</a></li>
+    <li><a class="vk" target="_blank" href= "https://vk.com/sorry_f">Лаубган Мартин</a></li>
+    <li><a class="vk" target="_blank" href= "https://vk.com/id525084615">Макаренко Дмитрий</a></li>
+    <li><a href="#">Мамедова Эльмира</a></li>
+    <li><a href="#">Назарко Александр</a></li>
+    <li><a class="vk" target="_blank" href= "https://vk.com/id584828086">Осипенко Ирина</a></li>
+    <li><a href="#">Осипова Вероника</a></li>
+    <li><a class="vk" target="_blank" href= "https://vk.com/mishapechkinz">Печеркин Михаил</a></li>
+    <li><a href="#">Полунова Аврора</a></li>
+    <li><a href="#">Рига Дарья</a></li>
+    <li><a href="#">Самойленко Роман</a></li>
+    <li><a href="#">Севостьянов Александр</a></li>
+    <li><a class="vk" target="_blank" href= "https://vk.com/id434534592">Семёнов Владимир</a></li>
+    <li><a class="vk" target="_blank" href= "https://vk.com/alonegunfighter44stg">Стадник Юрий</a></li>
+    <li><a href="#">Стеблин Егор</a></li>
+  </ol>
+  </div>
 </div>
-<div class="spisok">
-    <h1><a class="odnlist" href="list.html"><span>Список учеников</span></a></h1>
 </div>
-<div class="section">
-    <h1><span>Список Дежурств</span></h1>
-    <table>
-        <tr>
-            <th>1-ая бригада</th>
-            <th>2-ая бригада</th>
-            <th class="first">3-ая бригада</th>
-            <th>4-ая бригада</th>
-            <th>5-ая бригада</th>
-            <th>6-ая бригада</th>
-        </tr>
-        <tr>
-            <td>Кравцова Галина</td>
-            <td>Гравченко Варвара</td>
-            <td class="first">Семенов Владимир</td>
-            <td>Стеблин Егор</td>
-            <td>Самойленко Роман</td>
-            <td>Иванов Глеб</td>
-        </tr>
-        <tr>
-            <td>Осипова Вероника</td>
-            <td>Рига Дарья</td>
-            <td class="first">Киселёва Карина</td>
-            <td>Стадник Юрий</td>
-            <td>Воронин Ростислав</td>
-            <td>Макаренко Дмитрий</td>
-        </tr>
-        <tr>
-            <td>Цамая Алексей</td>
-            <td>Осипенко Ирина</td>
-            <td class="first">Гусейнова Лейла</td>
-            <td>Лаубган Мартин</td>
-            <td>Назарко Александр</td>
-            <td>Печеркин Михаил</td>
-        </tr>
-        <tr>
-            <td>Севостьянов Александр</td>
-            <td>Герасименко Валерия</td>
-            <td class="first">Мамедова Эльмира</td>
-            <td>Кобяков Артём</td>
-            <td>Кубиков Артём</td>
-            <td>Аверин Егор</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>Дыбова Полина</td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-</div>
-<div class="section">
-    <h1><span>Фотки класса</span></h1>
-    <div class="all">
-    <input checked type="radio" name="respond" id="desktop">
-    <article id="slider">
-        <input checked type="radio" name="slider" id="switch1">
-        <input type="radio" name="slider" id="switch2">
-        <input type="radio" name="slider" id="switch3">
-        <input type="radio" name="slider" id="switch4">
-        <input type="radio" name="slider" id="switch5">
-        <div id="slides">
-            <div id="overflow">
-                <div class="image">
-                    <article><img src="image/1.jpg"></article>
-                    <article><img src="image/2.jpg"></article>
-                    <article><img src="image/3.jpg"></article>
-                    <article><img src="image/4.jpg"></article>
-                    <article><img src="image/5.jpg"></article>
-                </div>
-            </div>
-        </div>
-        <div id="controls">
-            <label for="switch1"></label>
-            <label for="switch2"></label>
-            <label for="switch3"></label>
-            <label for="switch4"></label>
-            <label for="switch5"></label>
-        </div>
-        <div id="active">
-            <label for="switch1"></label>
-            <label for="switch2"></label>
-            <label for="switch3"></label>
-            <label for="switch4"></label>
-            <label for="switch5"></label>
-        </div>
-    </article>
-</div>
-<div class="section">
-    <h1><span>Домашние задание</span></h1>
-    <table>
-        <tr>
-            <th><b>На 1.04</b></th>
-            <th><b>На 2.04</b></th>
-        </tr>
-        <tr>
-            <td><i>Русский язык: упр. <a target="_blank" class="home" href="https://gdz.ru/class-8/russkii_yazik/rybchenkova/280-nom/">280</a>, синтаксический разбор 9-ого предложения</i></td>
-            <td><i>Химия: Выучить табличку (на сайте в отделе "Фото класса") + подготовка к проверочной</i></td>
-        </tr>
-        <tr>
-            <td><i></i></td>
-            <td><i>Обществознание: п. 27</i></td>
-        </tr>
-        <tr>
-            <td><i></i></td>
-            <td><i>Русский язык: упр. <a target="_blank" class="home" href="https://gdz.ru/class-8/russkii_yazik/rybchenkova/285-nom/">285</a></i></td>
-        </tr>
-        <tr>
-            <td><i></i></td>
-            <td><i>География <a target="_blank" class="home" href="https://www.euroki.org/gdz/ru/geografiya/8_klass/rabochaja_tetrad_geografija_konturnije/zadanie-str-10">контурная карта</a> стр. 10 - 11</i></td>
-        </tr>
-        <tr>
-            <td><i></i></td>
-            <td><i>История: Подготовить сообщения об поэте 18-ого века</i></td>        
-        </tr>
-    </table>
-    <p id="gdz"><i>Номера с голубым цветом означают, что в них есть ГДЗ ;)</i></p>
-</div>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
